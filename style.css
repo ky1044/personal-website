@@ -1,0 +1,337 @@
+/*
+
+Theme Name: New Theme
+
+Theme Author: Ken Yokokawa! *with alot of help from online
+
+*/
+
+body {
+    background:white;
+    max-width: 100%;
+    overflow-x: hidden;
+    "padding-bottom: 250px; margin-bottom: -250px;"
+}
+
+h1{
+   text-align:left;
+   color: black;
+   font-family: "Helvetica"; 
+   font-size: 44px; 
+   font-style: bold; 
+   padding-top:20px;
+}
+
+.h1-center{
+   text-align:center;
+   color: black;
+   font-family: "Helvetica"; 
+   font-size: 44px; 
+   font-style: bold; 
+   padding-top:20px;
+}
+
+
+h2{
+   text-align:left;
+   color: black;
+   font-family: "Helvetica"; 
+   font-size: 34px; 
+   font-style: bold; 
+   padding-top:20px;
+
+}
+.h2-center{
+   text-align:center;
+   color: black;
+   font-family: "Helvetica"; 
+   font-size: 34px; 
+   font-style: bold; 
+
+
+}
+
+h3{
+   text-align:left;
+   color: black;
+   font-family: "Helvetica"; 
+   font-size: 24px; 
+   font-style: normal; 
+   padding-top:10px;
+
+
+}
+.h3-center{
+   text-align:center;
+   color: black;
+   font-family: "Helvetica"; 
+   font-size: 24px; 
+   font-style: normal; 
+   padding-top:10px;
+
+
+}
+
+.front-page-title-link{
+   text-align:center;
+   color: dodgerblue;
+   font-family: "Helvetica"; 
+   font-size: 24px; 
+   font-style: normal; 
+   padding-top:10px;
+
+  -webkit-transition: color .5s;
+    -moz-transition:    color .5s;
+    -ms-transition:     color .5s;
+    -o-transition:      color .5s;
+    transition:         color .5s;
+}
+
+.front-page-title-link:hover {
+  color:black;
+}
+
+h4{
+   text-align:left;
+   color: black;
+   font-family: "Helvetica"; 
+   font-size: 20px; 
+   font-style: normal; 
+   padding-top:8px;
+
+}
+
+p{
+   text-align:left;
+   color: black;
+   font-family: "Helvetica"; 
+   font-size: 16px; 
+   font-style: normal; 
+
+}
+
+.p-condense{
+   text-align:left;
+   color: grey;
+   font-family: "Helvetica"; 
+   font-size: 16px; 
+   font-style: normal; 
+   width:60%;
+
+
+}
+
+.light-text{
+   text-align:center;
+   color: lightgrey;
+   font-family: "Helvetica"; 
+   font-size: 15px; 
+   font-style: normal; 
+   padding:5px;
+
+}
+
+header {
+  background:white;
+  display: flex;
+  align-items: center;
+  width:100%;
+  height:40px;
+  border-bottom: 1px solid dodgerblue;
+}
+
+
+/*everything post related */
+.post-container{
+  margin: auto;
+  align-content: center;
+  text-align: left;
+  width:80%;
+}
+.post-borders{
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+}
+
+.invisible-post-container{
+  margin: auto;
+  align-content: center;
+  text-align: left;
+  width:80%;
+}
+
+.title{
+  text-align:left;
+   color: black;
+   font-family: "Helvetica"; 
+   font-size: 34px; 
+   font-style: normal; 
+   padding-top: 30px
+
+}
+
+.title-link{
+  text-align:left;
+   color: dodgerblue;
+   font-family: "Helvetica"; 
+   font-size: 34px; 
+   font-style: normal; 
+   padding-top: 30px;
+  text-decoration: none;
+
+  -webkit-transition: color .5s;
+    -moz-transition:    color .5s;
+    -ms-transition:     color .5s;
+    -o-transition:      color .5s;
+    transition:         color .5s;
+}
+
+.title-link:hover {
+  color:black;
+}
+
+.post-date{
+  text-align:left;
+   color: grey;
+   font-family: "Helvetica"; 
+   font-size: 15px; 
+   font-style: normal; 
+
+}
+
+
+.post-tags{
+  text-align:left;
+   color: lightgrey;
+   font-family: "Helvetica"; 
+   font-size: 15px; 
+   font-style: normal; 
+   padding-bottom:5px;
+
+}
+
+
+
+
+
+footer {
+  background:white;
+  display: flex;
+  align-items: center;
+  width:100%;
+  height:70px;
+  border-top: 1px solid dodgerblue;
+}
+
+.footer-text{
+   text-align:center;
+   color: lightgrey;
+   font-family: "Helvetica"; 
+   font-size: 15px; 
+   font-style: normal; 
+   vertical-align: bottom;
+   padding-top:18px; 
+
+}
+
+.fill100{
+  height: calc(100vh - 39px);
+  background: url("wp-content/uploads/2019/03/NYC_tesselate-4.png");
+}
+
+.fill10{
+  height: 10vh;
+}
+
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.logo li {
+  float: left;
+  list-style-type: none;
+}
+
+.logo li a{
+   float:left;
+   color: dodgerblue;
+   font-family: "Helvetica"; 
+   font-size: 24px; 
+   font-style: bold; 
+   font-variant: normal; 
+   font-weight: 700;
+   padding: 0px;
+   padding-top: 10px;
+   padding-bottom: 0px;
+   text-decoration: none;
+    -webkit-text-stroke: .5px dodgerblue;
+
+
+   z-index:-1;
+   overflow: hidden;
+
+    -webkit-transition: color .5s, letter-spacing 1.5s;
+    -moz-transition:    color .5s, letter-spacing 1.5s;
+    -ms-transition:     color .5s, letter-spacing 1.5s;
+    -o-transition:      color .5s, letter-spacing 1.5s;
+    transition:         color .5s, letter-spacing 1.5s; 
+}
+
+.logo li a:hover {
+
+  color:white;
+  letter-spacing: .2px
+
+
+}
+
+
+.top-menu-right {
+  overflow: auto;
+  float: right;
+}
+
+
+.top-menu-right li {
+  float: left;
+  list-style-type: none;
+}
+
+
+.top-menu-right li a {
+    color: dodgerblue;
+    font-family: 'OpenSans', sans-serif;
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    font-size: 18px; 
+
+
+ 
+
+
+    -webkit-transition: color .4s;
+    -moz-transition:    color .4s;
+    -ms-transition:     color .4s;
+    -o-transition:      color .4s;
+    transition:         color .4s ;
+}
+
+
+.top-menu-right .current-menu-item > a{
+  color:black;
+}
+
+.top-menu-right li a:hover {
+  color:black;
+}
+
